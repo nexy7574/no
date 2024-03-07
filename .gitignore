@@ -1,5 +1,8 @@
-*.out
+no
 src/no
-src/_build/*
-src/**/
-
+src/*.out
+src/src/
+src/bin/
+src/.dart-tool/
+src/obj/
+src/_build/
