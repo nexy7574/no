@@ -1,0 +1,7 @@
+G'DAY MATE!
+
+I RECKON I'LL HAVE A WALKABOUT UNTIL (1==2) <
+  GIMME "no";
+>
+
+CHEERS C***!
