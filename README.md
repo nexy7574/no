@@ -10,7 +10,10 @@ None of these programs have any dependencies outside of their respective compile
 
 <details>
 <summary>Instructions per-language</summary>
+
 ### C
+
+
 ```sh
 gcc -o no src/no.c
 sudo mv no /usr/local/bin/no
