@@ -1,0 +1,5 @@
+*.out
+src/no
+src/_build/*
+src/**/
+
