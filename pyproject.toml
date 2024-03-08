@@ -12,7 +12,7 @@ version = "1.0.0"
 Source = "https://github.com/nexy7574/no"
 
 [project.scripts]
-ensure-upnp = "src.no:no"
+no = "src.no:no"
 
 [tool.setuptools_scm]
 write_to = "src/nex_utils/__version__.py"
