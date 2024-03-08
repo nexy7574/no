@@ -1,0 +1,21 @@
+[package]
+name = "no"
+version = "1.0.0"
+authors = ["Nexus <packages@nexy7574.co.uk>"]
+edition = "2021"
+description = "Yes, but no."
+readme = "README.md"
+repository = "https://github.com/nexy7574/no"
+license-file = "LICENSE"
+
+[profile.release]
+opt-level = 1
+strip = "symbols"
+debug = false
+debug-assertions = false
+overflow-checks = false
+lto = false
+panic = 'unwind'
+incremental = false
+codegen-units = 16
+rpath = false

@@ -1,0 +1,18 @@
+[project]
+name = "no"
+description = "Yes, but no."
+readme = {file = "README.md", content-type = "text/markdown"}
+license = { text = "GNU GPLv3" }
+authors = [
+    {name = "Nexus", email = "packages@nexy7574.co.uk"}
+]
+version = "1.0.0"
+
+[project.urls]
+Source = "https://github.com/nexy7574/no"
+
+[project.scripts]
+ensure-upnp = "src.no:no"
+
+[tool.setuptools_scm]
+write_to = "src/nex_utils/__version__.py"
