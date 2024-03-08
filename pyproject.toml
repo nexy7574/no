@@ -6,13 +6,13 @@ license = { text = "GNU GPLv3" }
 authors = [
     {name = "Nexus", email = "packages@nexy7574.co.uk"}
 ]
-version = "1.0.1"
+version = "1.0.2"
 
 [project.urls]
 Source = "https://github.com/nexy7574/no"
 
 [project.scripts]
-no = "src.no:no"
+no = "no:no"
 
 [tool.setuptools_scm]
 write_to = "src/nex_utils/__version__.py"
