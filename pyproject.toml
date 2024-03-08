@@ -6,7 +6,7 @@ license = { text = "GNU GPLv3" }
 authors = [
     {name = "Nexus", email = "packages@nexy7574.co.uk"}
 ]
-version = "1.0.0"
+version = "1.0.1"
 
 [project.urls]
 Source = "https://github.com/nexy7574/no"
