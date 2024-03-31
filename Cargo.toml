@@ -11,6 +11,13 @@ license-file = "LICENSE"
 [dependencies]
 maybe = { version = "*", optional = true, git = "https://github.com/nicroxio/maybe.git" }
 
+[features]
+default = []
+maybe = ["maybe"]
+all = ["maybe"]
+deluxe = ["maybe"]
+pro = ["maybe"]
+
 [profile.release]
 opt-level = 1
 strip = "symbols"
